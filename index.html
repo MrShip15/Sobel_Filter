@@ -1,7 +1,7 @@
 <HTML>
 <BODY>
-<canvas id='homework04_1' width='100px' height='100px' style="border: 2px groove #8bb1c4"></canvas>
-<canvas id='homework04_2' width="100px" height="100px" style="border: 2px groove #8bb1c4"></canvas>
+<canvas id='homework04_1' width='500px' height='500px' style="border: 2px groove #8bb1c4"></canvas>
+<canvas id='homework04_2' width="500px" height="500px" style="border: 2px groove #8bb1c4"></canvas>
 <script>
     function Fx(imgData, w, h, x, y) {
         v11 = imgData.data[(x - 1) * 4 + (y - 1) * 4 * w];
@@ -28,8 +28,8 @@
     let canvas = document.getElementById('homework04_1');
     let ctx = canvas.getContext('2d');
 
-    let w = 50;
-    let h = 50;
+    let w = 200;
+    let h = 200;
 
     ctx.fillStyle = '#a52a2a'
     ctx.fillRect(10, 10, 10, 10);
